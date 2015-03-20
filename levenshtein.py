@@ -24,7 +24,7 @@ def distance(s1,s2):
         table[-1][j] = n-j
     
     d = _distance(s1,s2,0,0,table)
-    print_table(table,s1,s2)
+    #print_table(table,s1,s2)
     return d    
 
 
